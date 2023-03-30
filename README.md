@@ -1,0 +1,1 @@
+# nuxt-dev-bug-demo

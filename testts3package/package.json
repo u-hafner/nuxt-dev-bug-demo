@@ -1,0 +1,26 @@
+{
+  "name": "@advs/testts3package",
+  "version": "0.0.3",
+  "description": "testpackage",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "publish:patch": "npm version patch && npm publish",
+    "publish:minor": "npm version minor && npm publish",
+    "publish:major": "npm version major && npm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@advs/testtspackage": "^0.0.4"
+  }
+}
